@@ -1,0 +1,6 @@
+{
+  "env": "staging",
+  "apiEndpoint": "https://wcx318tif9.execute-api.ap-southeast-2.amazonaws.com/api/v1/vqs",
+  "cdnBaseUrl": "https://d20omeihlv0yz1.cloudfront.net",
+  "websocketUrl": "wss://q7sq3bn070.execute-api.ap-southeast-2.amazonaws.com/dev/"
+}

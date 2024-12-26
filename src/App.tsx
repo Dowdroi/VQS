@@ -1,19 +1,35 @@
-import { useState } from "react";
-import "./App.css";
+import { useEffect } from "react";
+import { DesktopOnlyNotice } from "@/pages/DeskTopOnlyNotice";
+import Router from "./router";
+import "@/configs/config";
+import { AuthProvider } from "./providers/AuthContext";
+import { StateProvider } from "./providers/StateContext";
+import { Toaster } from "sonner";
+import { OrganizationController } from "./controllers/Organization.controller";
+import { UserController } from "./controllers/User.controller";
+
+const userController = new UserController();
+const organizationController = new OrganizationController();
 
 function App() {
-  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const init = async () => {
+      await userController.getUser();
+      await userController.getToken();
+      await organizationController.getList();
+    };
+    init();
+  }, []);
 
   return (
-    <div className="text-center">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <p className="text-gray-500 flex justify-center items-center gap-2">
-        Something is cooking right now, just wait
-        <span role="img" aria-label="smile">
-          😄
-        </span>
-      </p>
-    </div>
+    <AuthProvider>
+      <DesktopOnlyNotice>
+        <StateProvider>
+          <Router />
+        </StateProvider>
+      </DesktopOnlyNotice>
+      <Toaster />
+    </AuthProvider>
   );
 }
 

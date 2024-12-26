@@ -1,0 +1,126 @@
+{
+    "colors": {
+      "mx-btn-primary": "#000036",
+      "mx-btn-primary-hover": "#070761",
+      "mx-btn-primary-focus": "#16165C",
+      "mx-btn-white-hover": "#F2F2F8",
+      "mx-btn-white-focus": "#E0E0E7",
+      "mx-btn-red": "#D50707",
+      "mx-btn-red-hover": "#FF1A1A",
+      "mx-btn-red-focus": "#BE0303",
+      "mx-btn-pink-hover": "#FFF2F2",
+      "mx-btn-pink-focus": "#FFE5E5",
+      "mx-btn-neutral-border": "#797979",
+      "mx-btn-neutral-text": "#414141",
+      "mx-btn-gray-01": "#8F9BAC",
+      "mx-btn-gray-02": "#ABB6C5",
+      "mx-btn-gray-03": "#E9EBF0",
+  
+      "mx-bg-light-bluish-white": "#FAFAFF",
+      "mx-bg-primary": "#FFFFFF",
+      "mx-bg-primary-alt": "#FFFFFF",
+      "mx-bg-utility-primary-50": "#EEF2FF",
+      "mx-bg-utility-primary-500": "#6366F1",
+      "mx-bg-utility-primary-700": "#4338CA",
+      "mx-bg-utility-slate-100": "#F1F5F9",
+      "mx-bg-utility-warning-50": "#FFFBEB",
+      "mx-bg-utility-warning-500": "#F59E0B",
+      "mx-bg-utility-emerald-50": "#ECFDF5",
+      "mx-bg-utility-emerald-500": "#10B981",
+      "mx-bg-utility-error-600": "#DC2626",
+      "mx-bg-active": "#F9FAFB",
+  
+      "mx-border-primary": "#D0D5DD",
+      "mx-border-secondary": "#E5E7EB",
+  
+      "mx-text-primary": "#222222",
+      "mx-text-primary-900": "#111827",
+      "mx-text-secondary-700": "#374151",
+      "mx-text-disabled": "#667085",
+      "mx-text-tertiary": "#475467",
+      "mx-text-tertiary-600": "#475467",
+      "mx-text-quaternary-500": "#6B7280",
+      "mx-text-error-primary": "#DC2626",
+  
+      "mx-title-text": "#000000",
+  
+      "mx-gf-quinary-400": "#98A2B3",
+  
+      "mx-green-50": "#E4FFE0",
+      "mx-green-700": "#2FAD1B",
+  
+      "mx-success-50": "#F0FDF4",
+      "mx-success-200": "#ABEFC6",
+      "mx-success-500": "#22C55E",
+      "mx-success-700": "#067647",
+  
+      "mx-error-50": "#FFFBEB",
+      "mx-error-500": "#EF4444",
+  
+      "mx-warning-50": "#FEF2F2",
+      "mx-warning-500": "#F59E0B",
+  
+      "mx-red": "#D50707",
+      "mx-yellow-50": "#FFF8F0",
+      "mx-yellow-700": "#DA7C10",
+  
+      "mx-blue": "#402AEA",
+      "mx-blue-light-50": "#F0F9FF",
+      "mx-blue-light-200": "#B9E6FE",
+      "mx-blue-light-700": "#026AA2",
+  
+      "mx-gray-50": "#F9FAFB",
+      "mx-gray-200": "#EAECF0",
+      "mx-gray-light-100": "#F3F4F6",
+      "mx-gray-light-600": "#4B5563",
+      "mx-gray-light-700": "#374151",
+      "mx-gray-light-800": "#1F2937",
+      "mx-gray-light-900": "#222222",
+  
+      "mx-orange": "#F15B40",
+      "mx-orange-50": "#FEF6EE",
+      "mx-orange-200": "#F9DBAF",
+      "mx-orange-700": "#B93815",
+  
+      "mx-red-50": "#FFF0F0",
+      "mx-red-700": "#D50707",
+  
+      "mx-utility-violet-600": "#7C3AED",
+      "mx-utility-violet-700": "#6D28D9",
+      "mx-utility-primary-300": "#838fc9",
+      "mx-utility-primary-700": "#4338CA",
+  
+      "company-primary-500": "#1A1A80",
+      "company-primary-700": "#000060",
+      "company-secondary-600": "#F15B40",
+      "company-secondary-700": "#D14937",
+  
+      "button-primary-bg": "#000036",
+      "button-primary-border": "#000036",
+  
+      "neutral-01": "#000000",
+      "neutral-02": "#545454",
+      "neutral-03": "#777777",
+      "neutral-04": "#10061F",
+      "neutral-05": "#F4F4F4",
+      "neutral-06": "#FFFFFF",
+      "brand-01": "#000036",
+      "brand-01-brighten-20": "#333369",
+      "brand-02": "#F15B40",
+      "brand-02-darken-20": "#BD290E",
+      "focus": "#402AEA",
+      "focus-light": "#DADAFF",
+      "negative": "#D50707",
+      "negative-darken-20": "#720404",
+      "negative-light": "#FFF0F0",
+      "positive": "#2FAD1B",
+      "positive-darken-20": "#17550D",
+      "positive-light": "#E4FFE0",
+      "warning": "#DA7C10",
+      "warning-light": "#FFF8F0",
+      "destructive": "#B3261E",
+      "text-placeholder": "#667085",
+      "text-primary": "#475467"
+    }
+  }
+  

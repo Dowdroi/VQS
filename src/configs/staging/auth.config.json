@@ -1,0 +1,15 @@
+{
+  "loginWith": {
+    "email": {
+      "verificationEmailSubject": "[Staging] Welcome to Compliance"
+    },
+    "externalProviders": {
+      "google": {
+        "clientId": "GOOGLE_CLIENT_ID_STAGING",
+        "clientSecret": "GOOGLE_CLIENT_SECRET_STAGING"
+      },
+      "callbackUrls": [],
+      "logoutUrls": []
+    }
+  }
+}

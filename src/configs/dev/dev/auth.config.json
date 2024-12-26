@@ -1,0 +1,18 @@
+{
+  "loginWith": {
+    "externalProviders": {
+      "google": {
+        "clientId": "GOOGLE_CLIENT_ID_DEV",
+        "clientSecret": "GOOGLE_CLIENT_SECRET_DEV"
+      },
+      "callbackUrls": [
+        "http://localhost:1313",
+        "https://develop.d30qr819zaf00e.amplifyapp.com"
+      ],
+      "logoutUrls": [
+        "http://localhost:1313",
+        "https://develop.d30qr819zaf00e.amplifyapp.com"
+      ]
+    }
+  }
+}

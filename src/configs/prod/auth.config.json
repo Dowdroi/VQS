@@ -1,0 +1,15 @@
+{
+  "loginWith": {
+    "email": {
+      "verificationEmailSubject": "Welcome to Compliance"
+    },
+    "externalProviders": {
+      "google": {
+        "clientId": "GOOGLE_CLIENT_ID_PROD",
+        "clientSecret": "GOOGLE_CLIENT_SECRET_PROD"
+      },
+      "callbackUrls": [],
+      "logoutUrls": []
+    }
+  }
+}

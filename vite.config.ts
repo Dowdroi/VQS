@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"), // Alias "@" trỏ đến thư mục "src"
+      "@assets": path.resolve(__dirname, "./src/assets"), // Alias "@assets" trỏ đến "src/assets"
     },
   },
 });
